@@ -41,5 +41,5 @@ npm-debug.log
 /*.env
 /bower_components
 .vscode
-/data
+data/
 NOTES.md

@@ -3,7 +3,7 @@
 var express = require('express');
 var router = express.Router();
 var Bing = require('node-bing-api')({
-    accKey: 'Yqe+xe/Akfhmg5J2Gb89jrjs2bGsydbLzGGC9p/sGUg'
+    accKey: process.env.accKey
 });
 
 // global variable to keep the recent searches
